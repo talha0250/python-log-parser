@@ -8,6 +8,8 @@ def parse_logs(example):
         lines =  f.readlines()
         for line in lines:
             cleaned = line.strip().split(" ", 2) #cleans data of date+time
+            if len(cleaned) < 3:
+                continue 
             line = cleaned [2]
             if line.startswith("INFO"):
                 counts["INFO"] += 1
@@ -35,6 +37,6 @@ if __name__ == "__main__" :
     counts = parse_logs(args.input_file)
     print("Results:", counts)
     save_counts(counts, args.output_file)
-    print("results saved to {args.output_file}")
+    print(f"results saved to {args.output_file}")
 
 #to run in terminal follow format -> python project.py file.log file.csv
