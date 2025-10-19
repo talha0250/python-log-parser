@@ -1,2 +1,1 @@
-Basic log parser. For now, you can input a log file and it will count the number of INFO, ERROR and WARNING messages saving the count in an csv file. 
-Looking to build on this in the (hopefully) near future
+Basic log parser. For now, you can input a log file and it will count the number of INFO, ERROR, WARNING, and DEBUG messages saving the count in a csv file. You can filter by severity using --ERROR or --DEBUG etc, to only count that type of log message
