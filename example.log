@@ -35,17 +35,21 @@
 2025-09-16 08:56:03 ERROR: User authentication failed
 2025-09-16 08:56:08 INFO: Configuration loaded
 2025-09-16 08:56:13 WARNING: Configuration deprecated
-2025-09-16 08:56:18 ERROR: Data corruption detected
+2025-09-16 08:56:18 error: Data corruption detected
 2025-09-16 08:56:23 INFO: Data sync completed
 2025-09-16 08:56:28 WARNING: Unusual network activity
 2025-09-16 08:56:33 WARNING: Unusual network activity
 2025-09-16 08:56:38 ERROR: Failed to load configuration
 2025-09-16 08:56:43 INFO: Data sync completed
-2025-09-16 08:56:48 INFO: Connection established
+2025-09-16 08:56:48 Info: Connection established
 2025-09-16 08:56:53 ERROR: User authentication failed
-2025-09-16 08:56:58 WARNING: Configuration deprecated
+2025-09-16 08:56:58 warning: Configuration deprecated
 2025-09-16 08:57:03 WARNING: Disk space running low
 2025-09-16 08:57:08 WARNING: High memory usage detected
 2025-09-16 08:57:13 ERROR: Database connection lost
 2025-09-16 08:57:18 INFO: User login successful
-
+2025-09-16 09:45:10 DEBUG: Starting cache warm-up process
+2025-09-16 09:45:15 Debug: Retrieved 125 records from API
+2025-09-16 09:45:20 debug: Session token validated successfully
+2025-09-16 09:45:25 DEbUg: Configuration file parsed without errors
+2025-09-16 09:45:30 DEBUG: Queue worker heartbeat acknowledged
